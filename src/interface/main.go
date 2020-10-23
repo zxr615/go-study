@@ -4,7 +4,6 @@ import "fmt"
 
 func main() {
 	person := Person{}
-
 	person.Exercise("篮球")
 }
 
@@ -14,7 +13,6 @@ type Body interface {
 }
 
 type Person struct {
-
 }
 
 func (person Person) Speak(content string) {
